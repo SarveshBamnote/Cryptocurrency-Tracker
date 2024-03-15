@@ -1,0 +1,68 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #00e7ff;
+  font-size: 56px;
+}
+.image {
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 992px) {
+  .heading {
+    font-size: 38px;
+    text-align: center;
+  }
+  .image {
+    width: 80vw;
+    margin-bottom: 50px;
+  }
+}
+.crypto-table {
+  border: 2px solid #00e7ff;
+  border-radius: 4px;
+  width: 90%;
+}
+.table-header {
+  display: flex;
+  background-color: #092e33;
+  font-family: 'Roboto';
+}
+.coin-type {
+  color: #ffffff;
+  width: 70%;
+  margin-left: 40px;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.usd {
+  color: #ffffff;
+  width: 15%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.euro {
+  color: #ffffff;
+  width: 15%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .coin-type {
+    width: 50%;
+    margin-left: 20px;
+  }
+  .usd {
+    width: 25%;
+  }
+  .euro {
+    width: 25%;
+  }
+}
+.ul-container {
+  padding-left: 0px;
+}

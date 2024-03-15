@@ -1,0 +1,60 @@
+.list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.coin-logo-name {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .coin-logo-name {
+    width: 50%;
+  }
+  .logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.currency-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.usd-value {
+  color: #ffffff;
+  width: 15%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.euro-value {
+  color: #ffffff;
+  width: 15%;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .currency-name {
+    font-size: 16px;
+  }
+  .usd-value {
+    width: 25%;
+    font-size: 16px;
+  }
+  .euro-value {
+    width: 25%;
+    font-size: 16px;
+  }
+}
